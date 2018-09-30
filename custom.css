@@ -1,0 +1,20 @@
+/* Move the tab close button to the right */
+.tab-header .close {
+  background-color: transparent !important;
+  display: inline !important;
+  order: 2 !important;
+  margin-right: 6px;
+}
+
+/* Place the audio icon to the left of the tab close button */
+.tab-header .tab-audio {
+  display: inline !important;
+  order: 1 !important;
+  margin-right: -3px;
+}
+
+/* Always show favicon on tab */
+.tab-header .favicon {
+  display: inline !important;
+  order: 0 !important;
+}
