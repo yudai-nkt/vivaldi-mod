@@ -10,7 +10,7 @@ if ! [[ -d /Applications/Vivaldi.app/ ]]; then
   exit 1
 fi
 
-version=$(mdls -name kMDItemVersion /Applications/Vivaldi.app | awk -F '"' '{print $2}')
+version=$(defaults read /Applications/Vivaldi.app/Contents/Info CFBundleShortVersionString)
 dir="/Applications/Vivaldi.app/Contents/Versions/${version}/Vivaldi Framework.framework/Resources/vivaldi"
 
 for file in *.css; do
