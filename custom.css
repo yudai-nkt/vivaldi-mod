@@ -18,3 +18,8 @@
   display: inline !important;
   order: 0 !important;
 }
+
+/* Reduce the font size in the status info overlay */
+#status_info > span {
+  font-size: calc(var(--fontSize) * 0.9);
+}
