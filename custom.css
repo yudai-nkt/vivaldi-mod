@@ -23,3 +23,8 @@
 #status_info > span {
   font-size: calc(var(--fontSize) * 0.9);
 }
+
+/* Remove the button badges in Facebook, Twitter, and YouTube among others */
+span.button-badge {
+  display: none;
+}
