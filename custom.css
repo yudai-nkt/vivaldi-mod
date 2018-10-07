@@ -28,3 +28,16 @@
 span.button-badge {
   display: none;
 }
+
+/* Arrange the order of tab transition/reload buttons */
+button.button-toolbar.rewind {
+  order: -1;
+}
+
+button.button-toolbar.forward, button.button-toolbar.next {
+  order: 1;
+}
+
+button.button-toolbar.home {
+  order: 2;
+}
