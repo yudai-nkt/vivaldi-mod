@@ -41,3 +41,8 @@ button.button-toolbar.forward, button.button-toolbar.next {
 button.button-toolbar.home {
   order: 2;
 }
+
+/* Hide the navigation bar in start page */
+nav.startpage-navigation {
+  display: none !important;
+}
