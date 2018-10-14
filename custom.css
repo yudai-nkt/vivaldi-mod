@@ -46,3 +46,8 @@ button.button-toolbar.home {
 nav.startpage-navigation {
   display: none !important;
 }
+
+/* Hide the tab trash bin in private mode */
+.private .toggle-trash {
+  display: none;
+}
