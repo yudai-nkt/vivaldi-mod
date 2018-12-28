@@ -51,3 +51,8 @@ nav.startpage-navigation {
 .private .toggle-trash {
   display: none;
 }
+
+/* Hide searchfield in speed dial */
+.iconmenu-container.searchfield {
+  display: none;
+}
